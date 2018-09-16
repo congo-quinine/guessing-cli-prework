@@ -8,7 +8,7 @@ def run_guessing_game
     return
   elsif input.to_i == randomRoll
     puts 'You guessed the correct number!'
-    return 
+    return run_guessing_game
   elsif input.to_i != randomRoll
     puts "The computer guessed '#{randomRoll}'"
     return run_guessing_game
