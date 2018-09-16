@@ -10,6 +10,7 @@ def run_guessing_game
     return
   elsif input == randomRoll
     puts 'You guessed the correct number!'
+    return 
   else 
     puts 'The computer guessed #{randomRoll}'
   end
