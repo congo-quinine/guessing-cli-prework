@@ -12,7 +12,7 @@ def run_guessing_game
     puts 'You guessed the correct number!'
     return 
   elsif input != randomRoll
-    puts 'The computer guessed #{randomRoll}'
+    puts "The computer guessed '#{randomRoll}'"
   end
 end  
   
