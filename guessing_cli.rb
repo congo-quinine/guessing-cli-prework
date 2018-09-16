@@ -14,10 +14,6 @@ def run_guessing_game
   elsif input != randomRoll
     puts 'The computer guessed #{randomRoll}'
   end
-  
-  
-  
-  
 end  
   
   
